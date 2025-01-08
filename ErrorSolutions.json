@@ -44,5 +44,20 @@
     "Avatar upload failed due to network error": "VRChatのサーバへの接続問題が発生している可能性があります。インターネット接続を確認し、再度アップロードを試みてください。",
     "BuilderException: Avatar validation failed": "アップロード時の検証に失敗 次のことを確認してください。「アバターのポリゴン数やボーン数が制限を超えていないか」「マテリアルが適切に設定されているか」「アニメーションが正しく設定されているか」「アバターの各部位が適切な階層構造になっているか」「VRChatSDKのバージョンが最新かどうか」「Unityのバージョンが適切かどうか」",
     "VRCSdkControlPanelAvatarBuilder.Build": "アップロード時の検証に失敗 次のことを確認してください。「アバターに必要なコンポーネントが欠けていたり、設定が間違っているか」「SDKとUnityのバージョンが一致しているか」「「VRChat SDK」パネルからアバターを検査して、エラーや警告がないか確認」「SDKのバージョンが古い」「ビルド対象のGameObjectが正しく参照されておらず、必要なアセットやスクリプトが不足している可能性があります。GameObjectの設定が正しいかを確認」",
-    "Avatar validation failed": "アップロード時の検証に失敗 次のことを確認してください。「オブジェクトのスクリプト等の設定が正しいか」「アバターのポリゴン数やボーン数が制限を超えていないか」「マテリアルが適切に設定されているか」「アニメーションが正しく設定されているか」「アバターの各部位が適切な階層構造になっているか」「VRChatSDKのバージョンが最新かどうか」「Unityのバージョンが適切かどうか」"
+    "Avatar validation failed": "アップロード時の検証に失敗 次のことを確認してください。「オブジェクトのスクリプト等の設定が正しいか」「アバターのポリゴン数やボーン数が制限を超えていないか」「マテリアルが適切に設定されているか」「アニメーションが正しく設定されているか」「アバターの各部位が適切な階層構造になっているか」「VRChatSDKのバージョンが最新かどうか」「Unityのバージョンが適切かどうか」",
+    "Invalid operation for Playable": "アニメーションやPlayableの設定に問題がある場合に発生します。Animator ControllerやPlayable Graphの設定を再確認してください。",
+    "Failed to create asset from script": "スクリプトを使用してアセットを作成する際に失敗する場合があります。スクリプト内のパスやパーミッション、フォーマットが正しいか確認してください。",
+    "VRChat SDK could not be loaded": "SDKが正しくインストールされていない可能性があります。`VRChat SDK`を再インストールし、Unityのバージョンと互換性があるか確認してください。",
+    "Avatar animation override issue": "アバターのアニメーションオーバーライドが正しく設定されていない場合に発生します。オーバーライドするアニメーションがHumanoid形式に対応していることを確認してください。",
+    "Cannot find the VRCSceneDescriptor": "シーンに`VRC Scene Descriptor`コンポーネントが欠落している場合に発生します。適切な設定を追加してください。",
+    "Physics collision matrix issue": "物理演算において、コリジョンマトリックスの設定が間違っている可能性があります。Unityの`Physics`設定を確認し、必要なレイヤー間の衝突が許可されているか確認してください。",
+    "Asset bundle build error": "アセットバンドルのビルド中にエラーが発生した場合、指定したアセットのパスや依存関係を確認し、不足しているリソースを追加してください。",
+    "Unsupported audio format": "サポートされていないオーディオ形式が使用されている可能性があります。Unityでサポートされている形式（例: WAV、MP3）に変換してください。",
+    "Lighting settings issue": "ライティング設定に問題がある場合、シーン内の`Lighting`タブを確認し、必要なライトマップや設定を調整してください。",
+    "Missing prefab reference": "プレハブの参照が正しく設定されていない場合に発生します。プレハブのリンクを確認し、欠落している部分を修正してください。",
+    "Build and Play failed": "Unityエディタの設定やプロジェクトのビルドターゲットに問題がある場合に発生します。ビルドターゲットの設定やエラーの詳細ログを確認してください。",
+    "Audio source missing clip": "オーディオソースにアタッチされたクリップが欠落している場合に発生します。AudioClipが正しく設定されているか確認してください。",
+    "Exceeds VRCSDK limits": "VRChatのパフォーマンス制限（ポリゴン数、マテリアル数、ボーン数など）を超えた場合に発生します。アバターやシーンのリソースを最適化してください。",
+    "Shader keyword limit exceeded": "Shaderで使用されるキーワードの数が制限を超えた場合に発生します。使用されていないShaderキーワードを削除してください。",
+    "Duplicate blueprint ID": "同じBlueprint IDが他のアバターやシーンで使用されている場合に発生します。Pipeline ManagerでIDをリセットしてください。"
 }
